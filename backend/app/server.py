@@ -4,7 +4,7 @@ import uvicorn
 from pydantic import BaseModel
 from typing import List
 
-
+#372f9477-8d04-4385-8ff0-04d7b00d423c
 # Создаем приложение FastAPI
 app = FastAPI(title="WiFi Finder API", version="1.0.0")
 
@@ -26,7 +26,6 @@ class WiFiPoint(BaseModel):
     address: str = None
     type: str = None
 
-# Заглушка с тестовыми данными
 test_points = [
     WiFiPoint(
         id=1,
